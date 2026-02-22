@@ -9,7 +9,7 @@ ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 RESULTS_DIR="$ROOT/benchmark-results"
 
 # Порядок отображения веток
-BRANCH_ORDER="main iter-1-splitting iter-2-loading iter-3-rendering iter-4-caching"
+BRANCH_ORDER="main iter-1-resources iter-1-splitting iter-2-images iter-2-loading iter-3-rendering iter-4-caching iter-4-server"
 
 # Проверяем наличие результатов
 shopt -s nullglob
@@ -76,12 +76,13 @@ node -e "
   }
 
   function fmtDelta(current, baseline, lowerIsBetter) {
-    if (current === null || baseline === null || baseline === 0) return '      ';
+    if (current === null || baseline === null) return '      ';
+    if (baseline === 0) return current === 0 ? '    0%' : '      ';
     const pct = ((current - baseline) / baseline) * 100;
     const sign = lowerIsBetter ? (pct <= 0 ? '\\x1b[32m' : '\\x1b[31m') : (pct >= 0 ? '\\x1b[32m' : '\\x1b[31m');
     const reset = '\\x1b[0m';
     const str = pct <= 0 ? pct.toFixed(0) + '%' : '+' + pct.toFixed(0) + '%';
-    return sign + str.padStart(5) + reset;
+    return sign + str.padStart(6) + reset;
   }
 
   function fmtScoreDelta(current, baseline) {
@@ -90,7 +91,7 @@ node -e "
     const sign = diff >= 0 ? '\\x1b[32m' : '\\x1b[31m';
     const reset = '\\x1b[0m';
     const str = diff >= 0 ? '+' + diff : '' + diff;
-    return sign + str.toString().padStart(4) + reset;
+    return sign + str.toString().padStart(6) + reset;
   }
 
   // ─── Таблица метрик ───
@@ -106,7 +107,7 @@ node -e "
   for (const r of results) {
     const label = r.label.padEnd(16);
     const m = r.metrics;
-    const line = '│ ' + label + ' │' + fmtScore(m.score) + '   │' + fmtMs(m.fcp) + '  │' + fmtMs(m.lcp) + '  │' + fmtMs(m.tbt) + '  │' + fmtCls(m.cls) + ' │' + fmtMs(m.si) + '  │';
+    const line = '│ ' + label + ' │' + fmtScore(m.score) + '   │' + fmtMs(m.fcp) + '  │' + fmtMs(m.lcp) + '  │' + fmtMs(m.tbt) + '  │' + fmtCls(m.cls) + '  │' + fmtMs(m.si) + '  │';
     console.log(line);
   }
 

@@ -12,8 +12,14 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 PORT=3000
 RUNS=3
-USE_HTTPS=false
 SERVER_PID=""
+
+# Авто-определение HTTPS: если server.js использует createSecureServer — нужен HTTPS
+if grep -q 'createSecureServer' "$ROOT/server.js" 2>/dev/null; then
+  USE_HTTPS=true
+else
+  USE_HTTPS=false
+fi
 
 # Временная директория для метрик текущего запуска
 TMPDIR_METRICS=$(mktemp -d /tmp/lh-bench-XXXXXX)
@@ -23,9 +29,12 @@ get_label() {
   case "$1" in
     main)              echo "Baseline" ;;
     iter-1-splitting)  echo "+ Splitting" ;;
+    iter-1-resources)  echo "+ Resources" ;;
     iter-2-loading)    echo "+ Loading" ;;
+    iter-2-images)     echo "+ Images" ;;
     iter-3-rendering)  echo "+ Rendering" ;;
     iter-4-caching)    echo "+ Caching" ;;
+    iter-4-server)     echo "+ Server" ;;
     *)                 echo "$1" ;;
   esac
 }
