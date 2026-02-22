@@ -95,6 +95,12 @@ onMounted(() => {
 </template>
 
 <style scoped>
+/* content-visibility: auto — браузер пропускает рендеринг секции ниже viewport */
+#about {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1200px;
+}
+
 .about__content {
   display: flex;
   flex-direction: column;

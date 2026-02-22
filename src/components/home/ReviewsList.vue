@@ -56,6 +56,12 @@ function renderStars(rating: number): string {
 </template>
 
 <style scoped>
+/* content-visibility: auto — браузер пропускает рендеринг секции ниже viewport */
+#reviews {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
+
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

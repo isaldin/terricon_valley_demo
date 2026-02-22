@@ -40,6 +40,7 @@ function formatPrice(price: number): string {
 </script>
 
 <style scoped>
+/* contain: content — изолирует layout/paint карточки от остальной страницы */
 .product-card {
   background: var(--color-white);
   border-radius: var(--radius-lg);
@@ -48,6 +49,7 @@ function formatPrice(price: number): string {
   transition: box-shadow var(--transition-base);
   display: flex;
   flex-direction: column;
+  contain: content;
 }
 
 .product-card:hover {

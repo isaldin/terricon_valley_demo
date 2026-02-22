@@ -21,5 +21,10 @@ const { products } = useProducts()
 </template>
 
 <style scoped>
-/* Секция использует глобальные классы .section, .section-title, .product-grid из main.css */
+/* content-visibility: auto — браузер пропускает рендеринг секции ниже viewport */
+/* contain-intrinsic-size задаёт примерную высоту для корректного скролла */
+#products {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 2000px;
+}
 </style>
