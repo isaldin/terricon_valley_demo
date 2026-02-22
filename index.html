@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechStore — Магазин электроники</title>
 
-    <!-- Blocking CSS: Leaflet (используется внизу страницы — anti-pattern) -->
+    <!-- Preload LCP-картинки hero-слайдера -->
+    <link rel="preload" href="/images/hero/hero-1.jpg" as="image">
+
+    <!-- Шрифт с font-display: swap — текст виден сразу, шрифт подменяется -->
+    <link rel="stylesheet" href="/fonts/inter/inter.css">
+
+    <!-- Leaflet CSS — нужен для карты внизу страницы -->
     <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
 
-    <!-- Blocking JS: Leaflet (anti-pattern — блокирует парсинг) -->
-    <script>performance.mark('leaflet-start')</script>
-    <script src="/vendor/leaflet/leaflet.js"></script>
-    <script>
-      performance.mark('leaflet-end')
-      performance.measure('⛔ Leaflet блокирует парсинг', 'leaflet-start', 'leaflet-end')
-    </script>
-
-    <!-- Шрифт с font-display: block — блокирует рендер (anti-pattern) -->
-    <link rel="stylesheet" href="/fonts/inter/inter.css">
+    <!-- Leaflet JS — defer вместо blocking, не блокирует парсинг HTML -->
+    <script defer src="/vendor/leaflet/leaflet.js"></script>
   </head>
   <body>
     <div id="app"></div>
