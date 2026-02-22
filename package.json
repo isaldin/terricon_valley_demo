@@ -1,0 +1,32 @@
+{
+  "name": "terricon-presentation",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "type-check": "vue-tsc --build",
+    "show": "npx serve presentation",
+    "pdf": "node scripts/export-pdf.js",
+    "build-all": "node scripts/build-all.js",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.8.1",
+    "express": "^4.21.2",
+    "http2-express-bridge": "^1.0.7",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^24.37.5",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "^3.2.4"
+  }
+}

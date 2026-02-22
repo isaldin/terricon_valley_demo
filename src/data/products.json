@@ -1,0 +1,679 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "smartphones",
+    "price": 109990,
+    "oldPrice": 134990,
+    "image": "/images/products/product-1.jpg",
+    "images": [
+      "/images/products/product-1-1.jpg",
+      "/images/products/product-1-2.jpg",
+      "/images/products/product-1-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.8\" Dynamic AMOLED 2X, 120 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12/256 ГБ",
+      "Камера": "200 + 50 + 12 + 10 МП",
+      "Аккумулятор": "5000 мАч"
+    },
+    "description": "Флагманский смартфон с титановым корпусом и встроенным стилусом S Pen. Камера 200 МП с ИИ-обработкой для профессиональных снимков.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15 Pro Max",
+    "category": "smartphones",
+    "price": 119990,
+    "oldPrice": 144990,
+    "image": "/images/products/product-2.jpg",
+    "images": [
+      "/images/products/product-2-1.jpg",
+      "/images/products/product-2-2.jpg",
+      "/images/products/product-2-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.7\" Super Retina XDR, 120 Гц",
+      "Процессор": "Apple A17 Pro",
+      "Память": "256 ГБ",
+      "Камера": "48 + 12 + 12 МП",
+      "Аккумулятор": "4441 мАч"
+    },
+    "description": "Премиальный смартфон Apple с корпусом из титана и кнопкой действия. Поддержка записи видео в формате ProRes.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi 14",
+    "category": "smartphones",
+    "price": 54990,
+    "oldPrice": 64990,
+    "image": "/images/products/product-3.jpg",
+    "images": [
+      "/images/products/product-3-1.jpg",
+      "/images/products/product-3-2.jpg",
+      "/images/products/product-3-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.36\" LTPO AMOLED, 120 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12/256 ГБ",
+      "Камера": "50 + 50 + 50 МП (Leica)",
+      "Аккумулятор": "4610 мАч"
+    },
+    "description": "Компактный флагман с оптикой Leica и быстрой зарядкой 90 Вт. Отличный баланс размера и производительности.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy A55",
+    "category": "smartphones",
+    "price": 32990,
+    "image": "/images/products/product-4.jpg",
+    "images": [
+      "/images/products/product-4-1.jpg",
+      "/images/products/product-4-2.jpg",
+      "/images/products/product-4-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.6\" Super AMOLED, 120 Гц",
+      "Процессор": "Exynos 1480",
+      "Память": "8/128 ГБ",
+      "Камера": "50 + 12 + 5 МП",
+      "Аккумулятор": "5000 мАч"
+    },
+    "description": "Надёжный смартфон среднего класса с защитой IP67 и ярким AMOLED-дисплеем. Идеален для повседневных задач.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 5,
+    "name": "Google Pixel 8 Pro",
+    "category": "smartphones",
+    "price": 84990,
+    "image": "/images/products/product-5.jpg",
+    "images": [
+      "/images/products/product-5-1.jpg",
+      "/images/products/product-5-2.jpg",
+      "/images/products/product-5-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.7\" LTPO OLED, 120 Гц",
+      "Процессор": "Google Tensor G3",
+      "Память": "12/128 ГБ",
+      "Камера": "50 + 48 + 48 МП",
+      "Аккумулятор": "5050 мАч"
+    },
+    "description": "Смартфон Google с лучшей вычислительной фотографией и 7 годами обновлений. Эксклюзивные ИИ-функции на базе Tensor.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 6,
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "category": "smartphones",
+    "price": 22990,
+    "oldPrice": 27990,
+    "image": "/images/products/product-6.jpg",
+    "images": [
+      "/images/products/product-6-1.jpg",
+      "/images/products/product-6-2.jpg",
+      "/images/products/product-6-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.67\" AMOLED, 120 Гц",
+      "Процессор": "Snapdragon 7s Gen 2",
+      "Память": "8/256 ГБ",
+      "Камера": "200 + 8 + 2 МП",
+      "Аккумулятор": "5100 мАч"
+    },
+    "description": "Бюджетный хит с камерой 200 МП и быстрой зарядкой 67 Вт. Один из лучших смартфонов в своей ценовой категории.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 7,
+    "name": "HONOR Magic6 Pro",
+    "category": "smartphones",
+    "price": 69990,
+    "image": "/images/products/product-7.jpg",
+    "images": [
+      "/images/products/product-7-1.jpg",
+      "/images/products/product-7-2.jpg",
+      "/images/products/product-7-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.78\" LTPO AMOLED, 120 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12/512 ГБ",
+      "Камера": "50 + 50 + 12 МП",
+      "Аккумулятор": "5600 мАч"
+    },
+    "description": "Флагман HONOR с кремниево-углеродным аккумулятором 5600 мАч и функцией ИИ-распознавания лиц.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 8,
+    "name": "realme GT5 Pro",
+    "category": "smartphones",
+    "price": 44990,
+    "oldPrice": 52990,
+    "image": "/images/products/product-8.jpg",
+    "images": [
+      "/images/products/product-8-1.jpg",
+      "/images/products/product-8-2.jpg",
+      "/images/products/product-8-3.jpg"
+    ],
+    "specs": {
+      "Экран": "6.78\" AMOLED, 144 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12/256 ГБ",
+      "Камера": "50 + 8 + 50 МП (перископ)",
+      "Аккумулятор": "5400 мАч"
+    },
+    "description": "Мощный игровой флагман с дисплеем 144 Гц и перископной камерой. Зарядка 100 Вт за 26 минут.",
+    "inStock": false,
+    "bestseller": false
+  },
+  {
+    "id": 9,
+    "name": "Apple MacBook Air 15 M3",
+    "category": "laptops",
+    "price": 154990,
+    "oldPrice": 179990,
+    "image": "/images/products/product-9.jpg",
+    "images": [
+      "/images/products/product-9-1.jpg",
+      "/images/products/product-9-2.jpg",
+      "/images/products/product-9-3.jpg"
+    ],
+    "specs": {
+      "Экран": "15.3\" Liquid Retina, 500 нит",
+      "Процессор": "Apple M3 (8 ядер)",
+      "Память": "16 ГБ / 256 ГБ SSD",
+      "Графика": "Apple M3 10-core GPU",
+      "Вес": "1.51 кг"
+    },
+    "description": "Тонкий и лёгкий ноутбук с большим экраном и чипом M3. До 18 часов автономной работы без подзарядки.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 10,
+    "name": "ASUS ROG Strix G16",
+    "category": "laptops",
+    "price": 129990,
+    "image": "/images/products/product-10.jpg",
+    "images": [
+      "/images/products/product-10-1.jpg",
+      "/images/products/product-10-2.jpg",
+      "/images/products/product-10-3.jpg"
+    ],
+    "specs": {
+      "Экран": "16\" IPS, 165 Гц, QHD",
+      "Процессор": "Intel Core i7-13650HX",
+      "Память": "16 ГБ / 512 ГБ SSD",
+      "Графика": "NVIDIA RTX 4060 8 ГБ",
+      "Вес": "2.5 кг"
+    },
+    "description": "Игровой ноутбук с мощной видеокартой и быстрым экраном 165 Гц. Продвинутая система охлаждения для долгих игровых сессий.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 11,
+    "name": "Lenovo IdeaPad 5 Pro 16",
+    "category": "laptops",
+    "price": 74990,
+    "oldPrice": 89990,
+    "image": "/images/products/product-11.jpg",
+    "images": [
+      "/images/products/product-11-1.jpg",
+      "/images/products/product-11-2.jpg",
+      "/images/products/product-11-3.jpg"
+    ],
+    "specs": {
+      "Экран": "16\" IPS, 2560x1600, 120 Гц",
+      "Процессор": "AMD Ryzen 7 7735HS",
+      "Память": "16 ГБ / 512 ГБ SSD",
+      "Графика": "AMD Radeon 680M",
+      "Вес": "2.0 кг"
+    },
+    "description": "Универсальный ноутбук для работы и учёбы с отличным экраном 2.5K. Алюминиевый корпус и долгое время работы от батареи.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 12,
+    "name": "Huawei MateBook D16",
+    "category": "laptops",
+    "price": 62990,
+    "image": "/images/products/product-12.jpg",
+    "images": [
+      "/images/products/product-12-1.jpg",
+      "/images/products/product-12-2.jpg",
+      "/images/products/product-12-3.jpg"
+    ],
+    "specs": {
+      "Экран": "16\" IPS, 1920x1200",
+      "Процессор": "Intel Core i5-12450H",
+      "Память": "16 ГБ / 512 ГБ SSD",
+      "Графика": "Intel UHD Graphics",
+      "Вес": "1.7 кг"
+    },
+    "description": "Лёгкий и стильный ноутбук для повседневных задач. Быстрая зарядка и экосистема Huawei Super Device.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 13,
+    "name": "ASUS Zenbook 14 OLED",
+    "category": "laptops",
+    "price": 94990,
+    "oldPrice": 109990,
+    "image": "/images/products/product-13.jpg",
+    "images": [
+      "/images/products/product-13-1.jpg",
+      "/images/products/product-13-2.jpg",
+      "/images/products/product-13-3.jpg"
+    ],
+    "specs": {
+      "Экран": "14\" OLED, 2880x1800, 120 Гц",
+      "Процессор": "Intel Core Ultra 7 155H",
+      "Память": "16 ГБ / 512 ГБ SSD",
+      "Графика": "Intel Arc Graphics",
+      "Вес": "1.28 кг"
+    },
+    "description": "Ультрабук с великолепным OLED-экраном и процессором Intel Core Ultra. Идеален для креативных профессионалов.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 14,
+    "name": "Acer Nitro V 15",
+    "category": "laptops",
+    "price": 84990,
+    "image": "/images/products/product-14.jpg",
+    "images": [
+      "/images/products/product-14-1.jpg",
+      "/images/products/product-14-2.jpg",
+      "/images/products/product-14-3.jpg"
+    ],
+    "specs": {
+      "Экран": "15.6\" IPS, 144 Гц, FHD",
+      "Процессор": "Intel Core i5-13420H",
+      "Память": "16 ГБ / 512 ГБ SSD",
+      "Графика": "NVIDIA RTX 4050 6 ГБ",
+      "Вес": "2.1 кг"
+    },
+    "description": "Доступный игровой ноутбук с видеокартой RTX 4050 и быстрым экраном. Отличный выбор для начинающих геймеров.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 15,
+    "name": "Apple iPad Pro 12.9 M2",
+    "category": "tablets",
+    "price": 99990,
+    "oldPrice": 119990,
+    "image": "/images/products/product-15.jpg",
+    "images": [
+      "/images/products/product-15-1.jpg",
+      "/images/products/product-15-2.jpg",
+      "/images/products/product-15-3.jpg"
+    ],
+    "specs": {
+      "Экран": "12.9\" Liquid Retina XDR, 120 Гц",
+      "Процессор": "Apple M2",
+      "Память": "128 ГБ",
+      "Камера": "12 + 10 МП, LiDAR",
+      "Вес": "682 г"
+    },
+    "description": "Самый мощный планшет Apple с экраном mini-LED и чипом M2. Заменяет ноутбук для творческих задач.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 16,
+    "name": "Samsung Galaxy Tab S9 FE",
+    "category": "tablets",
+    "price": 38990,
+    "oldPrice": 44990,
+    "image": "/images/products/product-16.jpg",
+    "images": [
+      "/images/products/product-16-1.jpg",
+      "/images/products/product-16-2.jpg",
+      "/images/products/product-16-3.jpg"
+    ],
+    "specs": {
+      "Экран": "10.9\" TFT, 90 Гц",
+      "Процессор": "Exynos 1380",
+      "Память": "6/128 ГБ",
+      "Камера": "8 МП",
+      "Вес": "523 г"
+    },
+    "description": "Планшет Samsung с водозащитой IP68 и стилусом S Pen в комплекте. Отличный выбор для заметок и рисования.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 17,
+    "name": "Xiaomi Pad 6",
+    "category": "tablets",
+    "price": 27990,
+    "image": "/images/products/product-17.jpg",
+    "images": [
+      "/images/products/product-17-1.jpg",
+      "/images/products/product-17-2.jpg",
+      "/images/products/product-17-3.jpg"
+    ],
+    "specs": {
+      "Экран": "11\" IPS, 144 Гц, 2.8K",
+      "Процессор": "Snapdragon 870",
+      "Память": "6/128 ГБ",
+      "Камера": "13 МП",
+      "Вес": "490 г"
+    },
+    "description": "Доступный планшет с экраном 144 Гц и мощным процессором. Четыре динамика Dolby Atmos для кино и музыки.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 18,
+    "name": "Apple iPad Air M1",
+    "category": "tablets",
+    "price": 59990,
+    "image": "/images/products/product-18.jpg",
+    "images": [
+      "/images/products/product-18-1.jpg",
+      "/images/products/product-18-2.jpg",
+      "/images/products/product-18-3.jpg"
+    ],
+    "specs": {
+      "Экран": "10.9\" Liquid Retina, 60 Гц",
+      "Процессор": "Apple M1",
+      "Память": "64 ГБ",
+      "Камера": "12 МП",
+      "Вес": "461 г"
+    },
+    "description": "Тонкий и производительный планшет на чипе M1. Поддержка Apple Pencil 2 и клавиатуры Magic Keyboard.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 19,
+    "name": "Huawei MatePad 11.5",
+    "category": "tablets",
+    "price": 23990,
+    "oldPrice": 29990,
+    "image": "/images/products/product-19.jpg",
+    "images": [
+      "/images/products/product-19-1.jpg",
+      "/images/products/product-19-2.jpg",
+      "/images/products/product-19-3.jpg"
+    ],
+    "specs": {
+      "Экран": "11.5\" IPS, 120 Гц, 2.2K",
+      "Процессор": "Snapdragon 7 Gen 1",
+      "Память": "6/128 ГБ",
+      "Камера": "13 МП",
+      "Вес": "499 г"
+    },
+    "description": "Планшет Huawei с большим экраном 120 Гц и металлическим корпусом. Подходит для учёбы, работы и развлечений.",
+    "inStock": false,
+    "bestseller": false
+  },
+  {
+    "id": 20,
+    "name": "Sony WH-1000XM5",
+    "category": "headphones",
+    "price": 32990,
+    "oldPrice": 39990,
+    "image": "/images/products/product-20.jpg",
+    "images": [
+      "/images/products/product-20-1.jpg",
+      "/images/products/product-20-2.jpg",
+      "/images/products/product-20-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Полноразмерные, закрытые",
+      "Шумоподавление": "Активное (ANC), 8 микрофонов",
+      "Время работы": "30 часов",
+      "Кодеки": "LDAC, AAC, SBC",
+      "Вес": "250 г"
+    },
+    "description": "Лучшие беспроводные наушники с шумоподавлением на рынке. Адаптивный ANC и кристально чистые звонки.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 21,
+    "name": "AirPods Pro 2",
+    "category": "headphones",
+    "price": 22990,
+    "image": "/images/products/product-21.jpg",
+    "images": [
+      "/images/products/product-21-1.jpg",
+      "/images/products/product-21-2.jpg",
+      "/images/products/product-21-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Вкладыши (TWS)",
+      "Шумоподавление": "Активное (ANC), адаптивное",
+      "Время работы": "6 ч (+ 30 ч с кейсом)",
+      "Кодеки": "AAC",
+      "Вес": "5.3 г (каждый)"
+    },
+    "description": "Беспроводные наушники Apple с адаптивным шумоподавлением и пространственным звуком. Идеальная интеграция с iPhone.",
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "id": 22,
+    "name": "JBL Tune 770NC",
+    "category": "headphones",
+    "price": 7490,
+    "oldPrice": 8990,
+    "image": "/images/products/product-22.jpg",
+    "images": [
+      "/images/products/product-22-1.jpg",
+      "/images/products/product-22-2.jpg",
+      "/images/products/product-22-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Полноразмерные, закрытые",
+      "Шумоподавление": "Активное (ANC)",
+      "Время работы": "44 часа",
+      "Кодеки": "AAC, SBC",
+      "Вес": "228 г"
+    },
+    "description": "Доступные наушники с ANC и фирменным звуком JBL Pure Bass. Рекордное время работы до 44 часов.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 23,
+    "name": "Samsung Galaxy Buds3 Pro",
+    "category": "headphones",
+    "price": 17990,
+    "image": "/images/products/product-23.jpg",
+    "images": [
+      "/images/products/product-23-1.jpg",
+      "/images/products/product-23-2.jpg",
+      "/images/products/product-23-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Вкладыши (TWS)",
+      "Шумоподавление": "Активное (ANC), ИИ-адаптивное",
+      "Время работы": "6 ч (+ 26 ч с кейсом)",
+      "Кодеки": "Samsung Seamless, AAC, SBC",
+      "Вес": "5.4 г (каждый)"
+    },
+    "description": "Премиальные TWS-наушники Samsung с ИИ-шумоподавлением и звуком Hi-Fi 24 бит. Совместимы с Galaxy AI.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 24,
+    "name": "Sennheiser Momentum 4",
+    "category": "headphones",
+    "price": 28990,
+    "oldPrice": 34990,
+    "image": "/images/products/product-24.jpg",
+    "images": [
+      "/images/products/product-24-1.jpg",
+      "/images/products/product-24-2.jpg",
+      "/images/products/product-24-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Полноразмерные, закрытые",
+      "Шумоподавление": "Адаптивное ANC",
+      "Время работы": "60 часов",
+      "Кодеки": "aptX, aptX Adaptive, AAC, SBC",
+      "Вес": "293 г"
+    },
+    "description": "Наушники аудиофильного уровня с 60 часами автономной работы. Фирменный детальный звук Sennheiser.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 25,
+    "name": "Xiaomi Buds 4 Pro",
+    "category": "headphones",
+    "price": 8990,
+    "image": "/images/products/product-25.jpg",
+    "images": [
+      "/images/products/product-25-1.jpg",
+      "/images/products/product-25-2.jpg",
+      "/images/products/product-25-3.jpg"
+    ],
+    "specs": {
+      "Тип": "Вкладыши (TWS)",
+      "Шумоподавление": "Активное (ANC), до 48 дБ",
+      "Время работы": "9 ч (+ 38 ч с кейсом)",
+      "Кодеки": "LDAC, AAC, SBC",
+      "Вес": "6.3 г (каждый)"
+    },
+    "description": "TWS-наушники с поддержкой LDAC и мощным шумоподавлением до 48 дБ. Отличный звук за свою цену.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 26,
+    "name": "Apple Watch Series 9",
+    "category": "watches",
+    "price": 39990,
+    "oldPrice": 47990,
+    "image": "/images/products/product-26.jpg",
+    "images": [
+      "/images/products/product-26-1.jpg",
+      "/images/products/product-26-2.jpg",
+      "/images/products/product-26-3.jpg"
+    ],
+    "specs": {
+      "Экран": "1.9\" OLED Always-On, 2000 нит",
+      "Процессор": "Apple S9 SiP",
+      "Датчики": "Пульс, ЭКГ, SpO2, температура",
+      "Защита": "WR50, IP6X",
+      "Время работы": "до 18 часов"
+    },
+    "description": "Умные часы Apple с жестом Double Tap и ярким дисплеем 2000 нит. Полный набор датчиков здоровья.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 27,
+    "name": "Samsung Galaxy Watch6 Classic",
+    "category": "watches",
+    "price": 29990,
+    "image": "/images/products/product-27.jpg",
+    "images": [
+      "/images/products/product-27-1.jpg",
+      "/images/products/product-27-2.jpg",
+      "/images/products/product-27-3.jpg"
+    ],
+    "specs": {
+      "Экран": "1.5\" Super AMOLED, 480x480",
+      "Процессор": "Exynos W930",
+      "Датчики": "Пульс, ЭКГ, давление, SpO2",
+      "Защита": "5ATM, IP68, MIL-STD-810H",
+      "Время работы": "до 40 часов"
+    },
+    "description": "Классические умные часы с вращающимся безелем и Wear OS. Расширенный мониторинг здоровья и фитнеса.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 28,
+    "name": "Xiaomi Watch S3",
+    "category": "watches",
+    "price": 15990,
+    "oldPrice": 18990,
+    "image": "/images/products/product-28.jpg",
+    "images": [
+      "/images/products/product-28-1.jpg",
+      "/images/products/product-28-2.jpg",
+      "/images/products/product-28-3.jpg"
+    ],
+    "specs": {
+      "Экран": "1.43\" AMOLED, 466x466",
+      "Процессор": "BES2700",
+      "Датчики": "Пульс, SpO2, стресс",
+      "Защита": "5ATM",
+      "Время работы": "до 15 дней"
+    },
+    "description": "Стильные умные часы со сменными безелями и eSIM. До 15 дней автономной работы и 150+ спортивных режимов.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 29,
+    "name": "Huawei Watch GT 4 46mm",
+    "category": "watches",
+    "price": 21990,
+    "image": "/images/products/product-29.jpg",
+    "images": [
+      "/images/products/product-29-1.jpg",
+      "/images/products/product-29-2.jpg",
+      "/images/products/product-29-3.jpg"
+    ],
+    "specs": {
+      "Экран": "1.43\" AMOLED, 466x466",
+      "Процессор": "HiSilicon",
+      "Датчики": "Пульс, SpO2, температура кожи",
+      "Защита": "5ATM",
+      "Время работы": "до 14 дней"
+    },
+    "description": "Премиальные часы Huawei с восьмиугольным дизайном и точным пульсометром TruSeen 5.5+. До 14 дней без подзарядки.",
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "id": 30,
+    "name": "Garmin Venu 3",
+    "category": "watches",
+    "price": 44990,
+    "oldPrice": 49990,
+    "image": "/images/products/product-30.jpg",
+    "images": [
+      "/images/products/product-30-1.jpg",
+      "/images/products/product-30-2.jpg",
+      "/images/products/product-30-3.jpg"
+    ],
+    "specs": {
+      "Экран": "1.4\" AMOLED, 454x454",
+      "Процессор": "Garmin",
+      "Датчики": "Пульс, SpO2, ЭКГ, температура, сон",
+      "Защита": "5ATM",
+      "Время работы": "до 14 дней"
+    },
+    "description": "Спортивные смарт-часы Garmin с расширенным анализом сна и встроенным голосовым помощником. Идеальны для активного образа жизни.",
+    "inStock": true,
+    "bestseller": false
+  }
+]

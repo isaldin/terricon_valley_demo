@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore — Магазин электроники</title>
+
+    <!-- Blocking CSS: Leaflet (используется внизу страницы — anti-pattern) -->
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+
+    <!-- Blocking JS: Leaflet (anti-pattern — блокирует парсинг) -->
+    <script src="/vendor/leaflet/leaflet.js"></script>
+
+    <!-- Шрифт с font-display: block — блокирует рендер (anti-pattern) -->
+    <link rel="stylesheet" href="/fonts/inter/inter.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

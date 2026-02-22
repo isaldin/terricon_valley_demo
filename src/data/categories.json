@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "slug": "smartphones",
+    "name": "Смартфоны",
+    "productCount": 8,
+    "image": "/images/products/product-1.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "laptops",
+    "name": "Ноутбуки",
+    "productCount": 6,
+    "image": "/images/products/product-9.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "tablets",
+    "name": "Планшеты",
+    "productCount": 5,
+    "image": "/images/products/product-15.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "headphones",
+    "name": "Наушники",
+    "productCount": 6,
+    "image": "/images/products/product-20.jpg"
+  },
+  {
+    "id": 5,
+    "slug": "watches",
+    "name": "Умные часы",
+    "productCount": 5,
+    "image": "/images/products/product-26.jpg"
+  }
+]

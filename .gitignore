@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+builds
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSL certs (local dev)
+*.pem
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Benchmark
+benchmark-results.json
+benchmark-results/*.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.playwright-mcp
+.claude
+.serena
+CLAUDE.md
+
+scripts/build-all.js
+scripts/demo.js
