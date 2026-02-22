@@ -35,6 +35,10 @@ function renderStars(rating: number): string {
               :src="review.avatar"
               :alt="review.name"
               class="review-card__avatar"
+              loading="lazy"
+              decoding="async"
+              width="48"
+              height="48"
             >
             <div class="review-card__info">
               <span class="review-card__name">{{ review.name }}</span>

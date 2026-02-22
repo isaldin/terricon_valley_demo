@@ -55,25 +55,25 @@ onUnmounted(() => {
 
 <template>
   <section class="hero-slider">
-    <!-- Все изображения загружаются eager — намеренно для baseline (анти-паттерн) -->
-    <div class="hero-slider__preload">
-      <img
-        v-for="slide in slides"
-        :key="'preload-' + slide.id"
-        :src="slide.image"
-        alt=""
-        aria-hidden="true"
-      >
-    </div>
-
+    <!-- Убран eager preload всех слайдов — загружаем только активный -->
     <div class="hero-slider__track">
       <div
         v-for="(slide, index) in slides"
         :key="slide.id"
         class="hero-slider__slide"
         :class="{ 'hero-slider__slide--active': index === currentSlide }"
-        :style="{ backgroundImage: `url(${slide.image})` }"
       >
+        <!-- fetchpriority="high" на первом слайде (LCP), lazy на остальных -->
+        <img
+          :src="slide.image"
+          :alt="slide.title"
+          class="hero-slider__image"
+          width="1280"
+          height="500"
+          decoding="async"
+          :fetchpriority="index === 0 ? 'high' : 'low'"
+          :loading="index === 0 ? 'eager' : 'lazy'"
+        >
         <div class="hero-slider__overlay">
           <div class="container hero-slider__content">
             <h1 class="hero-slider__title">{{ slide.title }}</h1>
@@ -106,16 +106,6 @@ onUnmounted(() => {
   overflow: hidden;
 }
 
-/* Скрытые img-теги для принудительной eager-загрузки всех изображений */
-.hero-slider__preload {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
 .hero-slider__track {
   position: relative;
   height: 100%;
@@ -124,10 +114,15 @@ onUnmounted(() => {
 .hero-slider__slide {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
   opacity: 0;
   transition: opacity var(--transition-slow);
+}
+
+/* img вместо background-image — позволяет использовать loading/fetchpriority/decoding */
+.hero-slider__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-slider__slide--active {

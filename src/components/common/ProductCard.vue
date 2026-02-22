@@ -1,8 +1,16 @@
 <template>
   <div class="product-card">
     <div class="image-wrapper">
-      <!-- Нет loading="lazy" — намеренный антипаттерн для baseline-ветки -->
-      <img :src="product.image" :alt="product.name" class="product-image" />
+      <!-- loading="lazy" + width/height предотвращают CLS и откладывают загрузку -->
+      <img
+        :src="product.image"
+        :alt="product.name"
+        class="product-image"
+        loading="lazy"
+        decoding="async"
+        width="400"
+        height="300"
+      />
       <span v-if="product.bestseller" class="badge-hit">Хит</span>
     </div>
 
