@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
 
     <!-- Blocking JS: Leaflet (anti-pattern — блокирует парсинг) -->
+    <script>performance.mark('leaflet-start')</script>
     <script src="/vendor/leaflet/leaflet.js"></script>
+    <script>
+      performance.mark('leaflet-end')
+      performance.measure('⛔ Leaflet блокирует парсинг', 'leaflet-start', 'leaflet-end')
+    </script>
 
     <!-- Шрифт с font-display: block — блокирует рендер (anti-pattern) -->
     <link rel="stylesheet" href="/fonts/inter/inter.css">
